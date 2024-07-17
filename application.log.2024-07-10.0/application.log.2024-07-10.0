@@ -1,0 +1,130 @@
+2024-07-10 21:50:32 | INFO  | com.example.dev.BlogApizApplication | Starting BlogApizApplication using Java 21.0.2 with PID 10720 (C:\Users\Rathod\Desktop\programes\blog-apiz\target\classes started by Rathod in C:\Users\Rathod\Desktop\programes\blog-apiz)
+2024-07-10 21:50:32 | INFO  | com.example.dev.BlogApizApplication | No active profile set, falling back to 1 default profile: "default"
+2024-07-10 21:50:37 | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-10 21:50:37 | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 64 ms. Found 1 JPA repository interface.
+2024-07-10 21:50:38 | INFO  | org.springframework.boot.web.embedded.tomcat.TomcatWebServer | Tomcat initialized with port 8081 (http)
+2024-07-10 21:50:38 | INFO  | org.apache.catalina.core.StandardService | Starting service [Tomcat]
+2024-07-10 21:50:38 | INFO  | org.apache.catalina.core.StandardEngine | Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-10 21:50:39 | INFO  | org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] | Initializing Spring embedded WebApplicationContext
+2024-07-10 21:50:39 | INFO  | org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext | Root WebApplicationContext: initialization completed in 6412 ms
+2024-07-10 21:50:39 | INFO  | org.hibernate.jpa.internal.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-10 21:50:39 | INFO  | org.hibernate.Version | HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-10 21:50:39 | INFO  | org.hibernate.cache.internal.RegionFactoryInitiator | HHH000026: Second-level cache disabled
+2024-07-10 21:50:40 | INFO  | org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo | No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-10 21:50:40 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Starting...
+2024-07-10 21:50:41 | INFO  | com.zaxxer.hikari.pool.HikariPool | HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2b4829aa
+2024-07-10 21:50:41 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Start completed.
+2024-07-10 21:50:42 | WARN  | org.hibernate.orm.deprecation | HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-10 21:50:45 | INFO  | org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator | HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-10 21:50:45 | INFO  | org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-10 21:50:46 | WARN  | org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-10 21:50:48 | INFO  | org.springframework.boot.web.embedded.tomcat.TomcatWebServer | Tomcat started on port 8081 (http) with context path '/'
+2024-07-10 21:50:48 | INFO  | com.example.dev.BlogApizApplication | Started BlogApizApplication in 16.488 seconds (process running for 19.593)
+2024-07-10 21:51:59 | INFO  | org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin | Application shutdown requested.
+2024-07-10 21:51:59 | INFO  | org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean | Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-10 21:51:59 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Shutdown initiated...
+2024-07-10 21:51:59 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Shutdown completed.
+2024-07-10 21:52:06 | INFO  | com.example.dev.BlogApizApplication | Starting BlogApizApplication using Java 21.0.2 with PID 18128 (C:\Users\Rathod\Desktop\programes\blog-apiz\target\classes started by Rathod in C:\Users\Rathod\Desktop\programes\blog-apiz)
+2024-07-10 21:52:06 | INFO  | com.example.dev.BlogApizApplication | No active profile set, falling back to 1 default profile: "default"
+2024-07-10 21:52:07 | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-10 21:52:08 | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 70 ms. Found 1 JPA repository interface.
+2024-07-10 21:52:08 | INFO  | org.springframework.boot.web.embedded.tomcat.TomcatWebServer | Tomcat initialized with port 8081 (http)
+2024-07-10 21:52:08 | INFO  | org.apache.catalina.core.StandardService | Starting service [Tomcat]
+2024-07-10 21:52:08 | INFO  | org.apache.catalina.core.StandardEngine | Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-10 21:52:08 | INFO  | org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] | Initializing Spring embedded WebApplicationContext
+2024-07-10 21:52:08 | INFO  | org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext | Root WebApplicationContext: initialization completed in 2212 ms
+2024-07-10 21:52:09 | INFO  | org.hibernate.jpa.internal.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-10 21:52:09 | INFO  | org.hibernate.Version | HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-10 21:52:09 | INFO  | org.hibernate.cache.internal.RegionFactoryInitiator | HHH000026: Second-level cache disabled
+2024-07-10 21:52:09 | INFO  | org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo | No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-10 21:52:09 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Starting...
+2024-07-10 21:52:10 | INFO  | com.zaxxer.hikari.pool.HikariPool | HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@16b7e04a
+2024-07-10 21:52:10 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Start completed.
+2024-07-10 21:52:10 | WARN  | org.hibernate.orm.deprecation | HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-10 21:52:11 | INFO  | org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator | HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-10 21:52:11 | INFO  | org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-10 21:52:12 | WARN  | org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-10 21:52:13 | INFO  | org.springframework.boot.web.embedded.tomcat.TomcatWebServer | Tomcat started on port 8081 (http) with context path '/'
+2024-07-10 21:52:13 | INFO  | com.example.dev.BlogApizApplication | Started BlogApizApplication in 7.263 seconds (process running for 8.296)
+2024-07-10 21:52:37 | INFO  | org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin | Application shutdown requested.
+2024-07-10 21:52:37 | INFO  | org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean | Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-10 21:52:37 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Shutdown initiated...
+2024-07-10 21:52:37 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Shutdown completed.
+2024-07-10 21:55:08 | INFO  | com.example.dev.BlogApizApplication | Starting BlogApizApplication using Java 21.0.2 with PID 15612 (C:\Users\Rathod\Desktop\programes\blog-apiz\target\classes started by Rathod in C:\Users\Rathod\Desktop\programes\blog-apiz)
+2024-07-10 21:55:08 | INFO  | com.example.dev.BlogApizApplication | No active profile set, falling back to 1 default profile: "default"
+2024-07-10 21:55:10 | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-10 21:55:10 | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 71 ms. Found 1 JPA repository interface.
+2024-07-10 21:55:11 | INFO  | org.springframework.boot.web.embedded.tomcat.TomcatWebServer | Tomcat initialized with port 8081 (http)
+2024-07-10 21:55:11 | INFO  | org.apache.catalina.core.StandardService | Starting service [Tomcat]
+2024-07-10 21:55:11 | INFO  | org.apache.catalina.core.StandardEngine | Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-10 21:55:11 | INFO  | org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] | Initializing Spring embedded WebApplicationContext
+2024-07-10 21:55:11 | INFO  | org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext | Root WebApplicationContext: initialization completed in 2261 ms
+2024-07-10 21:55:11 | INFO  | org.hibernate.jpa.internal.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-10 21:55:11 | INFO  | org.hibernate.Version | HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-10 21:55:11 | INFO  | org.hibernate.cache.internal.RegionFactoryInitiator | HHH000026: Second-level cache disabled
+2024-07-10 21:55:12 | INFO  | org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo | No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-10 21:55:12 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Starting...
+2024-07-10 21:55:12 | INFO  | com.zaxxer.hikari.pool.HikariPool | HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@429f0ca8
+2024-07-10 21:55:12 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Start completed.
+2024-07-10 21:55:12 | WARN  | org.hibernate.orm.deprecation | HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-10 21:55:13 | INFO  | org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator | HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-10 21:55:14 | INFO  | org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-10 21:55:14 | WARN  | org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-10 21:55:15 | INFO  | org.springframework.boot.web.embedded.tomcat.TomcatWebServer | Tomcat started on port 8081 (http) with context path '/'
+2024-07-10 21:55:15 | INFO  | com.example.dev.BlogApizApplication | Started BlogApizApplication in 6.921 seconds (process running for 7.901)
+2024-07-10 21:55:39 | INFO  | org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin | Application shutdown requested.
+2024-07-10 21:55:39 | INFO  | org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean | Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-10 21:55:39 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Shutdown initiated...
+2024-07-10 21:55:39 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Shutdown completed.
+2024-07-10 23:35:35 | INFO  | com.example.dev.BlogApizApplication | Starting BlogApizApplication using Java 21.0.2 with PID 15572 (C:\Users\Rathod\Desktop\programes\blog-apiz\target\classes started by Rathod in C:\Users\Rathod\Desktop\programes\blog-apiz)
+2024-07-10 23:35:35 | INFO  | com.example.dev.BlogApizApplication | No active profile set, falling back to 1 default profile: "default"
+2024-07-10 23:35:36 | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-10 23:35:36 | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 96 ms. Found 1 JPA repository interface.
+2024-07-10 23:35:38 | INFO  | org.springframework.boot.web.embedded.tomcat.TomcatWebServer | Tomcat initialized with port 8081 (http)
+2024-07-10 23:35:38 | INFO  | org.apache.catalina.core.StandardService | Starting service [Tomcat]
+2024-07-10 23:35:38 | INFO  | org.apache.catalina.core.StandardEngine | Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-10 23:35:38 | INFO  | org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] | Initializing Spring embedded WebApplicationContext
+2024-07-10 23:35:38 | INFO  | org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext | Root WebApplicationContext: initialization completed in 3227 ms
+2024-07-10 23:35:38 | INFO  | org.hibernate.jpa.internal.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-10 23:35:38 | INFO  | org.hibernate.Version | HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-10 23:35:38 | INFO  | org.hibernate.cache.internal.RegionFactoryInitiator | HHH000026: Second-level cache disabled
+2024-07-10 23:35:39 | INFO  | org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo | No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-10 23:35:39 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Starting...
+2024-07-10 23:35:40 | INFO  | com.zaxxer.hikari.pool.HikariPool | HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6b030101
+2024-07-10 23:35:40 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Start completed.
+2024-07-10 23:35:40 | WARN  | org.hibernate.orm.deprecation | HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-10 23:35:42 | INFO  | org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator | HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-10 23:35:42 | INFO  | org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-10 23:35:42 | WARN  | org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-10 23:35:43 | INFO  | org.springframework.boot.web.embedded.tomcat.TomcatWebServer | Tomcat started on port 8081 (http) with context path '/'
+2024-07-10 23:35:43 | INFO  | com.example.dev.BlogApizApplication | Started BlogApizApplication in 9.508 seconds (process running for 11.426)
+2024-07-10 23:36:00 | INFO  | org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin | Application shutdown requested.
+2024-07-10 23:36:00 | INFO  | org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean | Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-10 23:36:00 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Shutdown initiated...
+2024-07-10 23:36:00 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Shutdown completed.
+2024-07-10 23:56:43 | INFO  | com.example.dev.BlogApizApplication | Starting BlogApizApplication using Java 21.0.2 with PID 15788 (C:\Users\Rathod\Desktop\programes\blog-apiz\target\classes started by Rathod in C:\Users\Rathod\Desktop\programes\blog-apiz)
+2024-07-10 23:56:43 | INFO  | com.example.dev.BlogApizApplication | No active profile set, falling back to 1 default profile: "default"
+2024-07-10 23:56:44 | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-10 23:56:44 | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 65 ms. Found 2 JPA repository interfaces.
+2024-07-10 23:56:45 | INFO  | org.springframework.boot.web.embedded.tomcat.TomcatWebServer | Tomcat initialized with port 8081 (http)
+2024-07-10 23:56:45 | INFO  | org.apache.catalina.core.StandardService | Starting service [Tomcat]
+2024-07-10 23:56:45 | INFO  | org.apache.catalina.core.StandardEngine | Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-10 23:56:45 | INFO  | org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] | Initializing Spring embedded WebApplicationContext
+2024-07-10 23:56:45 | INFO  | org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext | Root WebApplicationContext: initialization completed in 2087 ms
+2024-07-10 23:56:45 | INFO  | org.hibernate.jpa.internal.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-10 23:56:45 | INFO  | org.hibernate.Version | HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-10 23:56:45 | INFO  | org.hibernate.cache.internal.RegionFactoryInitiator | HHH000026: Second-level cache disabled
+2024-07-10 23:56:46 | INFO  | org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo | No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-10 23:56:46 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Starting...
+2024-07-10 23:56:46 | INFO  | com.zaxxer.hikari.pool.HikariPool | HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2558f65c
+2024-07-10 23:56:46 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Start completed.
+2024-07-10 23:56:46 | WARN  | org.hibernate.orm.deprecation | HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-10 23:56:48 | INFO  | org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator | HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-10 23:56:50 | INFO  | org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-10 23:56:51 | WARN  | org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-10 23:56:51 | INFO  | org.springframework.boot.web.embedded.tomcat.TomcatWebServer | Tomcat started on port 8081 (http) with context path '/'
+2024-07-10 23:56:51 | INFO  | com.example.dev.BlogApizApplication | Started BlogApizApplication in 9.306 seconds (process running for 10.354)
+2024-07-10 23:59:10 | INFO  | org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin | Application shutdown requested.
+2024-07-10 23:59:10 | INFO  | org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean | Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-10 23:59:10 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Shutdown initiated...
+2024-07-10 23:59:10 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Shutdown completed.

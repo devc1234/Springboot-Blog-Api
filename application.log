@@ -1,0 +1,144 @@
+2024-07-17 16:16:53 | INFO  | com.example.dev.BlogApizApplication | Starting BlogApizApplication using Java 21.0.2 with PID 12748 (C:\Users\Rathod\Desktop\programes\blog-apiz\target\classes started by Rathod in C:\Users\Rathod\Desktop\programes\blog-apiz)
+2024-07-17 16:16:53 | INFO  | com.example.dev.BlogApizApplication | No active profile set, falling back to 1 default profile: "default"
+2024-07-17 16:16:55 | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-17 16:16:55 | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 78 ms. Found 3 JPA repository interfaces.
+2024-07-17 16:16:56 | INFO  | org.springframework.boot.web.embedded.tomcat.TomcatWebServer | Tomcat initialized with port 8081 (http)
+2024-07-17 16:16:56 | INFO  | org.apache.catalina.core.StandardService | Starting service [Tomcat]
+2024-07-17 16:16:56 | INFO  | org.apache.catalina.core.StandardEngine | Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-17 16:16:56 | INFO  | org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] | Initializing Spring embedded WebApplicationContext
+2024-07-17 16:16:56 | INFO  | org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext | Root WebApplicationContext: initialization completed in 3059 ms
+2024-07-17 16:16:56 | INFO  | org.hibernate.jpa.internal.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-17 16:16:56 | INFO  | org.hibernate.Version | HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-17 16:16:57 | INFO  | org.hibernate.cache.internal.RegionFactoryInitiator | HHH000026: Second-level cache disabled
+2024-07-17 16:16:57 | INFO  | org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo | No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-17 16:16:57 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Starting...
+2024-07-17 16:16:58 | INFO  | com.zaxxer.hikari.pool.HikariPool | HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@fde487b
+2024-07-17 16:16:58 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Start completed.
+2024-07-17 16:16:58 | WARN  | org.hibernate.orm.deprecation | HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-17 16:17:00 | INFO  | org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator | HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-17 16:17:00 | INFO  | org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17 16:17:01 | WARN  | org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-17 16:17:02 | INFO  | org.springframework.boot.web.embedded.tomcat.TomcatWebServer | Tomcat started on port 8081 (http) with context path '/'
+2024-07-17 16:17:02 | INFO  | com.example.dev.BlogApizApplication | Started BlogApizApplication in 9.858 seconds (process running for 11.493)
+2024-07-17 16:17:22 | INFO  | org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-17 16:17:22 | INFO  | org.springframework.web.servlet.DispatcherServlet | Initializing Servlet 'dispatcherServlet'
+2024-07-17 16:17:22 | INFO  | org.springframework.web.servlet.DispatcherServlet | Completed initialization in 2 ms
+2024-07-17 16:17:23 | INFO  | org.springdoc.api.AbstractOpenApiResource | Init duration for springdoc-openapi is: 741 ms
+2024-07-17 16:20:45 | ERROR | org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] | Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.example.dev.exeption.ResourceNotFoundExeption: category Id] with root cause
+com.example.dev.exeption.ResourceNotFoundExeption: category Id
+	at com.example.dev.servises.impl.PostServisesimpl.lambda$1(PostServisesimpl.java:44)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at com.example.dev.servises.impl.PostServisesimpl.createPost(PostServisesimpl.java:44)
+	at com.example.dev.controller.PostController.createPost(PostController.java:28)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-07-17 16:23:48 | INFO  | org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin | Application shutdown requested.
+2024-07-17 16:23:48 | INFO  | org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean | Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17 16:23:48 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Shutdown initiated...
+2024-07-17 16:23:48 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Shutdown completed.
+2024-07-17 16:43:27 | INFO  | com.example.dev.BlogApizApplication | Starting BlogApizApplication using Java 21.0.2 with PID 12944 (C:\Users\Rathod\Desktop\programes\blog-apiz\target\classes started by Rathod in C:\Users\Rathod\Desktop\programes\blog-apiz)
+2024-07-17 16:43:27 | INFO  | com.example.dev.BlogApizApplication | No active profile set, falling back to 1 default profile: "default"
+2024-07-17 16:43:28 | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-17 16:43:28 | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 72 ms. Found 3 JPA repository interfaces.
+2024-07-17 16:43:29 | INFO  | org.springframework.boot.web.embedded.tomcat.TomcatWebServer | Tomcat initialized with port 8081 (http)
+2024-07-17 16:43:29 | INFO  | org.apache.catalina.core.StandardService | Starting service [Tomcat]
+2024-07-17 16:43:29 | INFO  | org.apache.catalina.core.StandardEngine | Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-17 16:43:29 | INFO  | org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] | Initializing Spring embedded WebApplicationContext
+2024-07-17 16:43:29 | INFO  | org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext | Root WebApplicationContext: initialization completed in 2560 ms
+2024-07-17 16:43:30 | INFO  | org.hibernate.jpa.internal.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-17 16:43:30 | INFO  | org.hibernate.Version | HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-17 16:43:30 | INFO  | org.hibernate.cache.internal.RegionFactoryInitiator | HHH000026: Second-level cache disabled
+2024-07-17 16:43:30 | INFO  | org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo | No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-17 16:43:30 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Starting...
+2024-07-17 16:43:31 | INFO  | com.zaxxer.hikari.pool.HikariPool | HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6dbbdf92
+2024-07-17 16:43:31 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Start completed.
+2024-07-17 16:43:31 | WARN  | org.hibernate.orm.deprecation | HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-17 16:43:32 | INFO  | org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator | HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-17 16:43:33 | INFO  | org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17 16:43:34 | WARN  | org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-17 16:43:34 | INFO  | org.springframework.boot.web.embedded.tomcat.TomcatWebServer | Tomcat started on port 8081 (http) with context path '/'
+2024-07-17 16:43:34 | INFO  | com.example.dev.BlogApizApplication | Started BlogApizApplication in 8.26 seconds (process running for 9.284)
+2024-07-17 16:43:34 | INFO  | org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-17 16:43:34 | INFO  | org.springframework.web.servlet.DispatcherServlet | Initializing Servlet 'dispatcherServlet'
+2024-07-17 16:43:34 | INFO  | org.springframework.web.servlet.DispatcherServlet | Completed initialization in 2 ms
+2024-07-17 16:43:35 | INFO  | org.springdoc.api.AbstractOpenApiResource | Init duration for springdoc-openapi is: 743 ms
+2024-07-17 16:44:30 | INFO  | org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin | Application shutdown requested.
+2024-07-17 16:44:30 | INFO  | org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean | Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17 16:44:30 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Shutdown initiated...
+2024-07-17 16:44:30 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Shutdown completed.
+2024-07-17 16:59:51 | INFO  | com.example.dev.BlogApizApplication | Starting BlogApizApplication using Java 21.0.2 with PID 17060 (C:\Users\Rathod\Desktop\programes\blog-apiz\target\classes started by Rathod in C:\Users\Rathod\Desktop\programes\blog-apiz)
+2024-07-17 16:59:51 | INFO  | com.example.dev.BlogApizApplication | No active profile set, falling back to 1 default profile: "default"
+2024-07-17 16:59:53 | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-17 16:59:53 | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 73 ms. Found 3 JPA repository interfaces.
+2024-07-17 16:59:54 | INFO  | org.springframework.boot.web.embedded.tomcat.TomcatWebServer | Tomcat initialized with port 8081 (http)
+2024-07-17 16:59:54 | INFO  | org.apache.catalina.core.StandardService | Starting service [Tomcat]
+2024-07-17 16:59:54 | INFO  | org.apache.catalina.core.StandardEngine | Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-17 16:59:54 | INFO  | org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] | Initializing Spring embedded WebApplicationContext
+2024-07-17 16:59:54 | INFO  | org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext | Root WebApplicationContext: initialization completed in 2788 ms
+2024-07-17 16:59:54 | INFO  | org.hibernate.jpa.internal.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-17 16:59:54 | INFO  | org.hibernate.Version | HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-17 16:59:55 | INFO  | org.hibernate.cache.internal.RegionFactoryInitiator | HHH000026: Second-level cache disabled
+2024-07-17 16:59:55 | INFO  | org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo | No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-17 16:59:55 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Starting...
+2024-07-17 16:59:56 | INFO  | com.zaxxer.hikari.pool.HikariPool | HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@79b8ecb
+2024-07-17 16:59:56 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Start completed.
+2024-07-17 16:59:56 | WARN  | org.hibernate.orm.deprecation | HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-17 16:59:58 | INFO  | org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator | HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-17 16:59:59 | INFO  | org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17 16:59:59 | WARN  | org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-17 17:00:00 | INFO  | org.springframework.boot.web.embedded.tomcat.TomcatWebServer | Tomcat started on port 8081 (http) with context path '/'
+2024-07-17 17:00:00 | INFO  | com.example.dev.BlogApizApplication | Started BlogApizApplication in 9.938 seconds (process running for 11.487)
+2024-07-17 17:00:04 | INFO  | org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-17 17:00:04 | INFO  | org.springframework.web.servlet.DispatcherServlet | Initializing Servlet 'dispatcherServlet'
+2024-07-17 17:00:04 | INFO  | org.springframework.web.servlet.DispatcherServlet | Completed initialization in 2 ms
+2024-07-17 17:00:05 | INFO  | org.springdoc.api.AbstractOpenApiResource | Init duration for springdoc-openapi is: 817 ms
+2024-07-17 17:02:52 | INFO  | org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin | Application shutdown requested.
+2024-07-17 17:02:52 | INFO  | org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean | Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17 17:02:52 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Shutdown initiated...
+2024-07-17 17:02:52 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Shutdown completed.
